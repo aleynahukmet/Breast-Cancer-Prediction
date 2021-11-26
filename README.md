@@ -4,28 +4,19 @@
    <p align="center"> 
    <img width="1000" height="400" alt="breast-cancer" src="https://user-images.githubusercontent.com/87663976/143589879-c6f2aa4a-833d-4fca-bada-92dab6fd3ce6.jpg">
 </p>
-</p>![breast-cancer](https://user-images.githubusercontent.com/87663976/143589879-c6f2aa4a-833d-4fca-bada-92dab6fd3ce6.jpg)
 
+In this project, we focus on breast cancer prediction. There are several important parameters for breast cancer in the dataset we have. We will make predictions by looking at the relationship between them and breast cancer.
 
-
-This project aims to predict the life expectancy of people depending on some other features. While predicting life expectancy on people whose in different circumstances using machine learning models on data helps us better understand the effect of features on life expectancy and determine how they change it.
-
-# Dataset
-
-The Global Health Observatory (GHO) data repository under World Health Organization (WHO) keeps track of the health status as well as many other related factors for all countries. The data sets are made available to the public for health data analysis. The data-set related to life expectancy, health factors for 193 countries have been collected from the same WHO data repository website. Among all categories of health-related factors, only those critical factors were chosen which are more representative. It has been observed that in the past 15 years, there has been a huge development in the health sector resulting in improvement of human mortality rates especially in the developing nations in comparison to the past 30 years. Therefore, in this project, we have considered data from the year 2000-2015 for 193 countries for further analysis.
-
-# Data Preprocessing
-
-First of all, I changed the column names to lower case to make it a clear dataset and filled the spaces between them. Then I checked for duplicated rows and saw there was none. While filling the missing values, according to dataset containing many outliers and also skewed distribution, I used the median method.
 
 # Exploratory Data Analysis
 
-I used some visualization methods to have a better understanding of features' relation, and also their effects on life expectancy.Initially, I plotted the count of numerical variables among the dataset with histplot. I only had two categorical features, country and status. Status was showing whether a country was developing or developed. I plotted the count of status distribution with catplot.
+I have a clean dataset with few features so I started to have visualization to see the relation of features and diagnosis. First I checked the barplot of different features with diagnosis(target label) to see the relationship between features and diagnosis. Then I checked for correlation. Finally, I plotted a scatter plot of features with diagnosis.
 
 <p align="center"> 
-   <img alt="Ekran Resmi 2021-06-28 01 15 28" src="https://user-images.githubusercontent.com/87663976/143217634-99cb184b-1684-4c50-b22c-88733deeb62e.png">
+   <img alt="Ekran Resmi 2021-06-28 01 15 28" src="https://user-images.githubusercontent.com/87663976/143591271-92e92feb-c0ee-402c-9c94-2030084b6f24.png">
 </p>
-Then I wanted to show the relation between life expectancy and other features. I first visualized the top ten countries with the highest life expectancy with a barplot. After that, I plotted a scatter plot of life expectancy with other features, it did not only make a better understanding of the relation between features and life expectancy but also showed there were outliers in our dataset. To see outliers better I plotted a boxplot to visualize them. Many variables on our dataset including the target variable (life expectancy) had outliers. But I let the outliers stay and decided to deal with them later
+-![indir (3)](https://user-images.githubusercontent.com/87663976/143591271-92e92feb-c0ee-402c-9c94-2030084b6f24.png)
+
 
 # Correlation 
 
