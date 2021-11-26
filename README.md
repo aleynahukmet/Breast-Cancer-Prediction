@@ -1,7 +1,9 @@
 # Breast-Cancer-Prediction
 
 <p align="center"> 
-   <img alt="https://user-images.githubusercontent.com/87663976/143589879-c6f2aa4a-833d-4fca-bada-92dab6fd3ce6.jpg">
+   <p align="center"> 
+   <img width="1000" height="400" alt="breast-cancer" src="https://user-images.githubusercontent.com/87663976/143589879-c6f2aa4a-833d-4fca-bada-92dab6fd3ce6.jpg">
+</p>
 </p>![breast-cancer](https://user-images.githubusercontent.com/87663976/143589879-c6f2aa4a-833d-4fca-bada-92dab6fd3ce6.jpg)
 
 
